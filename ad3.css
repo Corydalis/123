@@ -1,0 +1,411 @@
+
+/*** font setting **/
+@font-face {
+    font-family: 'S-CoreDream-8Heavy';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HangeulNuri-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/HangeulNuri-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KOTRA_GOTHIC';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/KOTRA_GOTHIC.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBMPlexSansKR-Text';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Text.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/**** font setting finished **/
+
+*{
+    word-break: keep-all;
+}
+
+.highlight{
+    font-size: 1.3em;
+    padding-top: .3em;
+}
+
+.agency-wrap{
+    width: 60%;
+    display: block;
+    margin: 0 auto
+}
+
+.agency-box{
+    border: 2px solid;
+    width: 32.5%;
+    height: 28vh;
+    display: inline-flex;
+    justify-content: center;
+    padding:  0;
+    margin: .5em auto;
+    border: 1px solid #d1d1d1
+}
+
+.agency-last-box{
+    background-color: #E2B765; background-repeat: no-repeat; background-image: url(sym.png);
+    background-size: 35%;
+    background-position: 100% 100%;
+}
+
+.agency-last-box .agency-box-tit h2{
+    font-family: 'IBMPlexSansKR-Text';
+    font-weight: bold;
+    color: #333;
+    line-height:2;
+    padding: 0px 1em 0em 1em;
+    position: relative;
+    top: 1em;
+    font-size: 1.1em;
+}
+
+.agency-box-tit{
+    width:100%
+}
+
+.agency-box-tit ul{
+    width: 100%;
+}
+
+.agency-box-tit h2.box-tit{
+    background: #E2B765;
+    text-align: center;
+    padding: .8em 0;
+    width: 100%;
+    margin-block-start: 0;
+    font-family: 'NEXON Lv1 Gothic OTF';
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.agency-box-tit ul{
+    width: 100%;
+    padding-inline-start: .5em;
+}
+
+.agency-box-tit ul li *{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.agency-box-tit ul li{
+    list-style: none;
+    font-size: 1.1em;
+    font-family: 'KOTRA_GOTHIC';
+    font-weight: 500
+}
+
+.agency-box-tit ul li h2{
+    margin: .2em auto;
+    font-size: 1em;
+}
+
+.agency-box-tit i,
+.agency-box-tit h2{
+    font-weight: 500
+}
+
+.agency-box-tit i{
+    font-size: 1.2em;
+    margin: auto 0;
+    color: #DA612D
+}
+
+.agency-box-tit h2{
+    font-size: 1.2em;
+    font-family: 'KOTRA_GOTHIC';
+}
+
+.jonryaku-container{
+    width: 100%;
+}
+
+.jonryaku-wrapper{
+    width: 100%;
+}
+
+.jonryaku-main-tit{
+    text-align: center;
+}
+
+.fa-file-alt{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    font-size: 3em
+}
+
+.jonryaku-tit .jonryaku-sub-tit{
+    text-align: center;
+}
+
+.ad-tit{
+    font-size: 1.9em;
+    text-align: center;
+    margin: 3em auto 1em auto;
+    font-family: 'S-CoreDream-8Heavy';
+    display: block;
+    width: auto
+}
+
+.ad-tit-two{
+    widtH: 30%;
+}
+
+.jonryaku-wrap{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.jonryaku-tit{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    font-family: 'KOTRA_GOTHIC';
+}
+
+.sm-tit-wrap{
+    width: 100%;
+    margin: 1em auto;
+    border: 1px solid #E2B765;
+    font-family: 'KOTRA_GOTHIC';
+    display: inline-flex;
+    justify-content: center;
+}
+
+.sm-tit{
+    color : #E2B765;
+    font-size: 2em;
+    margin-left: 0em;
+    display: block;
+
+    margin-block-start: 0.5em;
+    margin-block-end: 0.6em;
+}
+
+.triangle-left{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 30px 15px 0;
+    border-color: transparent #ffffff transparent transparent;
+    display: block;
+    position: absolute;
+    left: 47em;
+}
+
+
+.triangle-right{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 0 15px 30px;
+    border-color: transparent transparent transparent #ffffff;
+    display: block;
+    position: absolute;
+    left: 70em;
+}
+
+.sm-tit-right{
+    color : #E2B765;
+    font-size: 2em;
+    margin-left: 0em;
+    display: block;
+}
+
+.sm-tit-small .far {
+    color: #fff;
+}
+
+.sm-tit-small{
+    background: #E2B765;
+    color: #fff;
+    width: 35%;
+    height: 30vh;
+    text-align: center;
+    display: inline-block;
+}
+
+.sm-tit-small ul{
+    text-align: left
+}
+
+.sm-tit-large{    background: #fff;
+    height: 30vh;
+
+    width: 65%;    display: inline-block;
+
+}
+.jonryaku-tit h4{
+
+}
+
+.jonryaku-main-tit{
+    font-size: 1.5em;
+}
+
+
+.fa-file-alt{
+    color: #E2B765;
+}
+
+.online-wrap{
+    margin-left: 0em;
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.6em;
+}
+
+.online-wrap .jonryaku-main-tit{
+    font-size: 2em;
+}
+
+.online-wrap .online-sub-tit{
+    font-size: 1.4em;
+}
+
+.online-wrap h4{
+    font-family: 'KOTRA_GOTHIC';
+    font-size: 1.45em;
+}
+
+.online-wrap ul{
+    color: #333;
+    font-size: 1em;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    font-family: 'KOTRA_GOTHIC';
+}
+
+.online-sub-wrap{
+}
+
+.offline-wrap .jonryaku-main-tit{
+    font-size: 2em;
+    margin-top: 4em
+}
+
+.fa-microphone-alt,
+.fa-balance-scale,
+.fa-trophy,
+.fa-image{
+    font-size: 4em;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.offline-wrap .off-sub-tit{
+    font-family: 'KOTRA_GOTHIC';
+    font-size: 1.7em;
+    text-align: center;
+    margin-top: 2em;
+    margin-block-end: .3em;
+}
+
+.offline-wrap ul{
+    width: 30%;
+    display: block;
+    margin : 0 auto;
+    font-family: 'KOTRA_GOTHIC';
+    font-size: 1.3em;
+}
+
+.offline-wrap .sm-tit-small,
+.offline-wrap .sm-tit-large{
+}
+
+.offline-wrap .sm-tit-small{
+}
+
+.simsa-wrap{
+    margin-left: 0em;
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.6em;
+    margin-top: 3em;
+}
+
+.simsa-wrap .jonryaku-main-tit,
+.trophy-wrap .jonryaku-main-tit,
+.winner-wrap .jonryaku-main-tit{
+    font-size: 2em;
+}
+
+.simsa-wrap .simsa-sub-tit{
+    font-size: 1.4em;
+}
+
+.simsa-wrap h4,
+.winner-wrap h4{
+    font-family: 'KOTRA_GOTHIC';
+    font-size: 1.45em;
+    text-align: center;
+}
+
+.simsa-wrap ul{
+    width: 50%;
+    display: block;
+    margin : 0 auto;
+    font-family: 'KOTRA_GOTHIC';
+    font-size: 1.3em;
+}
+
+.sisangsik-wrap ul,
+.winner-wrap ul{
+    width: 50%;
+    display: block;
+    margin : 0 auto;
+    font-family: 'KOTRA_GOTHIC';
+    font-size: 1.3em;
+}
+
+img{
+    width: 100%;
+}
+
+
+/********** MEDIA~~~QUERY~~~~~~~~~~~~~~STARTTTTTTTTTTTT**/
+@media (max-width:798px){
+    *{
+    }
+
+    img{
+        width: 100%
+    }
+
+    .ad-container{
+        width: 100%;
+    }
+    .agency-wrap{
+        width: 100%;
+    }
+    .agency-box{
+        width: 100%;
+        display: block;
+    }
+} 
